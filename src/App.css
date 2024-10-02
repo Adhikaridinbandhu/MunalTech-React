@@ -1,0 +1,82 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-primary: #745bb3;
+  --color-secondary: #3a3a40;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-primary-tint1: #e4daff;
+  --color-primary-tint2: #dbcdff;
+  --color-primary-tint3: #f6f3ff;
+  --color-primary-shade: #a682ff;
+  --color-primary-shade2: #644e99;
+  --color-gray: #717579;
+  --color-box-shadow: rgba(0, 0, 0, 0.25);
+}
+.html {
+  font-size: 62.5%;
+}
+body {
+  color: #343a40;
+  font-family: "Nunito", sans-serif;
+}
+.btn {
+  padding: 10px 16px;
+  border-radius: 8px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-size: 19px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.container {
+  padding: 4rem 6rem;
+}
+.sub-heading {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+.secondary-heading {
+  font-size: 2.7rem;
+  line-height: 1.2;
+  font-weight: 800;
+}
+.content-heading {
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+.content-para {
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.8;
+}
+.how-content-heading {
+  font-size: 1.9rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.how-content-para {
+  margin-top: 3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.step-number {
+  padding: 3px 15px;
+  background-color: #dbcdff;
+  border-radius: 50%;
+  box-shadow: 0 0.2rem 0.8rem rgb(0, 0, 0, 0.05);
+}
+.step-content {
+  margin-left: 0.6rem;
+} */
