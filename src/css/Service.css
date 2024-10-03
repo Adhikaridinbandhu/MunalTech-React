@@ -1,0 +1,22 @@
+.service-section-header {
+  margin-top: 1.1rem;
+}
+
+.service-btn-container {
+  margin-top: 4.5rem;
+}
+
+.service-btn {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 1.5rem 3.8rem;
+  border: none;
+  border-radius: 0;
+  background-color: var(--color-white);
+  color: #343a40;
+  cursor: pointer;
+}
+
+.service-btn:hover {
+  background-color: var(--color-primary-tint1);
+}
