@@ -1,4 +1,4 @@
-/* * {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -16,12 +16,94 @@
   --color-gray: #717579;
   --color-box-shadow: rgba(0, 0, 0, 0.25);
 }
-.html {
-  font-size: 62.5%;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6f3ff;
+  padding: 1.6rem 2.5rem;
+  height: 5rem;
 }
-body {
-  color: #343a40;
-  font-family: "Nunito", sans-serif;
+
+.munaltech-logo {
+  width: 85%;
+  height: 3.1rem;
+}
+
+.head-nav {
+  display: flex;
+  margin-left: 200px;
+  align-items: center;
+  gap: 2rem;
+}
+
+.head-nav-list {
+  display: flex;
+  list-style: none;
+  gap: 4.8rem;
+}
+
+.head-nav-link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #343a34;
+}
+
+.head-nav-link:hover {
+  color: var(--color-primary);
+}
+
+.hero-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #f6f3ff;
+  padding: 4rem 6rem;
+  gap: 2rem;
+}
+
+.hero-btn-wrapper,
+.feature-list,
+.how-step-wrapper,
+.pricing-info-wrapper,
+.testimonial-info-wrapper {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.btn-pricing:hover,
+.btn-smart:hover,
+.link-learn:hover,
+.pricing-btn:hover,
+.testimonial-btn:hover {
+  background-color: var(--color-primary-shade2);
+  transition: 0.35s;
+}
+
+.hero-header,
+.feature-heading,
+.pricing-head,
+.testimonial-para {
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+
+.hero-para,
+.feature-para,
+.pricing-para,
+.testimonial-para-name {
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.pricing-section-wrapper,
+.service-section-wrapper {
+  margin-top: 3.2rem;
+}
+
+.pricing-btn {
+  padding: 16px 30px;
+  background-color: var(--color-primary-tint1);
 }
 .btn {
   padding: 10px 16px;
@@ -33,50 +115,3 @@ body {
   border: none;
   cursor: pointer;
 }
-.container {
-  padding: 4rem 6rem;
-}
-.sub-heading {
-  font-size: 1.1rem;
-  font-weight: 800;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--color-primary);
-}
-.secondary-heading {
-  font-size: 2.7rem;
-  line-height: 1.2;
-  font-weight: 800;
-}
-.content-heading {
-  font-size: 2.2rem;
-  font-weight: 800;
-}
-.content-para {
-  margin-top: 3rem;
-  font-size: 1.3rem;
-  font-weight: 500;
-  line-height: 1.8;
-}
-.how-content-heading {
-  font-size: 1.9rem;
-  font-weight: 800;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-.how-content-para {
-  margin-top: 3rem;
-  font-size: 1.1rem;
-  font-weight: 500;
-  line-height: 1.6;
-}
-.step-number {
-  padding: 3px 15px;
-  background-color: #dbcdff;
-  border-radius: 50%;
-  box-shadow: 0 0.2rem 0.8rem rgb(0, 0, 0, 0.05);
-}
-.step-content {
-  margin-left: 0.6rem;
-} */
