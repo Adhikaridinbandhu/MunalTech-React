@@ -20,3 +20,23 @@
 .service-btn:hover {
   background-color: var(--color-primary-tint1);
 }
+.smartroom-wrapper {
+  display: flex;
+}
+.smartroom-find-link {
+  list-style: none;
+  border-bottom: 2px solid var(--color-primary);
+  margin-top: 3rem;
+  font-family: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  width: 93px;
+  transition: border-bottom 1s ease;
+}
+
+.smartroom-find-link:hover {
+  border-bottom: 2px solid transparent;
+}
+.smart-room-img {
+  width: 45%;
+}

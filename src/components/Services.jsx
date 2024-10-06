@@ -1,10 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import smartRoomImage from "../images/service section/smart-room.png";
 import "../css/Service.css";
 
 const Services = () => {
   return (
-    <div className="container">
+    <div className="container service-wrapper">
       <div className="service-section-header">
         <span className="sub-heading">services</span>
         <h2 className="secondary-heading">
@@ -31,7 +33,7 @@ const Services = () => {
             enhance your room.
           </p>
           <li className="smartroom-find-link">
-            Find More<i className="fa-solid fa-arrow-right"></i>
+            Find More <FontAwesomeIcon icon={faArrowRight} />
           </li>
         </div>
         <img className="smart-room-img" src={smartRoomImage} alt="Smart Room" />

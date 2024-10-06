@@ -1,4 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faStar,
+  faStarHalfStroke,
+  faArrowDownLong,
+} from "@fortawesome/free-solid-svg-icons";
 import heroImage from "../images/hero-img.webp";
 import trustpilotIcon from "../images/trustpilot_icon.png";
 
@@ -22,17 +28,17 @@ const Hero = () => {
           <li className="link-learn">
             Learn More{" "}
             <span>
-              <i className="fa-solid fa-arrow-down-long"></i>
+              <FontAwesomeIcon icon={faArrowDownLong} />
             </span>
           </li>
         </div>
         <div className="hero-star-wrapper">
           <div>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star-half-stroke"></i>
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStarHalfStroke} />
           </div>
           <p>2,500+ reviews on</p>
           <img src={trustpilotIcon} alt="trustpilot-icon" />

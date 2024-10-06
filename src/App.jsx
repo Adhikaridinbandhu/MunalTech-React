@@ -10,7 +10,6 @@ function App() {
     <div>
       <Header />
       <Hero />
-      <Services />
       <HowItWorks />
     </div>
   );

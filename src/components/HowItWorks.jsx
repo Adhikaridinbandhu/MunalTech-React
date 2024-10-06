@@ -17,7 +17,8 @@ const HowItWorks = () => {
       <div className="how-step-wrapper">
         <div className="how-step-heading-1">
           <h3 className="how-content-heading">
-            <span className="step-number">1</span>Select convenient plan for you
+            <span className="step-number">1. </span>Select convenient plan for
+            you
           </h3>
           <p className="how-content-para">
             Explore and select among the plans which best fit for your place. We
@@ -34,7 +35,8 @@ const HowItWorks = () => {
         </div>
         <div className="how-step-heading-2">
           <h3 className="how-content-heading">
-            <span className="step-number">2</span>Review and examine your place
+            <span className="step-number">2. </span>Review and examine your
+            place
           </h3>
           <p className="how-content-para">
             Our expert team of architects will examine your preferred place by
@@ -47,7 +49,7 @@ const HowItWorks = () => {
       <div className="how-step-wrapper how-step-wrapper-3">
         <div className="how-step-heading-3">
           <h3 className="how-content-heading">
-            <span className="step-number">3</span>Design fitting install
+            <span className="step-number">3. </span>Design fitting install
             structure
           </h3>
           <p className="how-content-para">

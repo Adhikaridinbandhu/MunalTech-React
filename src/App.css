@@ -53,6 +53,28 @@
 .head-nav-link:hover {
   color: var(--color-primary);
 }
+.sub-heading {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+.secondary-heading {
+  font-size: 2.7rem;
+  line-height: 1.2;
+  font-weight: 800;
+}
+.content-heading {
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+.content-para {
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.8;
+}
 
 .hero-wrapper {
   display: flex;
@@ -69,6 +91,7 @@
 .testimonial-info-wrapper {
   display: flex;
   gap: 1.6rem;
+  list-style: none;
 }
 
 .btn-pricing:hover,
@@ -118,6 +141,6 @@
 }
 .container {
   background-color: #f6f3ff;
-  padding: 1.6rem 2.5rem;
+  padding: 4rem 6rem;
   height: 5rem;
 }

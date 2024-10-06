@@ -1,20 +1,21 @@
+.how-section-wrapper {
+}
+.how-section-header {
+}
 .how-step-wrapper {
   margin-top: 5rem;
   display: flex;
   align-items: center;
   gap: 4rem;
 }
-
 .how-step-image-1 {
   width: 40%;
   border-radius: 0.6rem;
   margin-right: 5rem;
 }
-
 .how-step-wrapper-2-4 {
   gap: 9rem;
 }
-
 .how-step-image-2-4 {
   width: 105%;
   border-radius: 0.6rem;
